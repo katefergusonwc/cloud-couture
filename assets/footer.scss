@@ -1,0 +1,38 @@
+footer {
+  background-color: #034ad8;
+  text-align: center;
+  margin-top: auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.socials {
+  text-align: right;
+}
+
+.socials img {
+  padding-top: 7px;
+}
+
+.linkedin {
+  padding-right: 12px;
+}
+
+.date-time {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+  .socials {
+    text-align: center;
+  }
+  .date-time {
+    margin: auto;
+  }
+}

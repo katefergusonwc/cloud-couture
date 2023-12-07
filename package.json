@@ -1,0 +1,22 @@
+{
+  "name": "my-first-11ty-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "eleventy-sass": "^2.2.4"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^3.1.8",
+    "luxon": "^3.4.4"
+  }
+}

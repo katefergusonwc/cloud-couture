@@ -1,0 +1,23 @@
+{% unless hide_footer %}
+<footer>
+  <div></div>
+  <div class="date-time">
+    Website was last generated {{ "now" | date: "%d-%m-%Y %H:%M" }}
+  </div>
+  <div class="socials">
+    <a href="https://www.youtube.com/c/CloudCannon"
+      ><img src="/public/pictures/youtube.png" alt="youtube logo"
+    /></a>
+    <a href="https://twitter.com/CloudCannon"
+      ><img src="/public/pictures/twitter.png" alt="twitter logo"
+    /></a>
+    <a
+      href="https://www.linkedin.com/company/cloud-cannon/?originalSubdomain=nz"
+      ><img
+        src="/public/pictures/linkedin.png"
+        alt="linkedin logo"
+        class="linkedin"
+    /></a>
+  </div>
+</footer>
+{% endunless %}

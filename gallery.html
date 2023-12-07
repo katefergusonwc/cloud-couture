@@ -1,0 +1,67 @@
+---
+title: Gallery
+layout: page.html
+---
+
+<h2>Gallery</h2>
+<div class="slider">
+  <img id="img-1" src="/public/pictures/amber-black-tee.JPG" alt="navy tee" />
+  <img
+    id="img-2"
+    src="/public/pictures/calum-blue-hoodie.JPG"
+    alt="navy hoodie"
+  />
+  <img
+    id="img-3"
+    src="/public/pictures/david-grey-hoodie.png"
+    alt="grey hoodie"
+  />
+  <img
+    id="img-4"
+    src="/public/pictures/davidandcharlotte.png"
+    alt="grey hoodies"
+  />
+  <img
+    id="img-5"
+    src="/public/pictures/drink-bottle.png"
+    alt="navy drink bottle"
+  />
+  <img id="img-6" src="/public/pictures/emoji.jpg" alt="emoji tee" />
+  <img id="img-7" src="/public/pictures/grey-hoodie.png" alt="grey hoodie" />
+  <img id="img-8" src="/public/pictures/IMG_4380.JPG" alt="amber heart" />
+  <img id="img-9" src="/public/pictures/IMG_4390.JPG" alt="group photo" />
+  <img id="img-10" src="/public/pictures/IMG_4386.png" alt="drink" />
+  <img
+    id="img-11"
+    src="/public/pictures/george-mike.jpg"
+    alt="george and mike standing together"
+  />
+  <img
+    id="img-12"
+    src="/public/pictures/mike-george.jpg"
+    alt="mike and george with others"
+  />
+  <img
+    id="img-13"
+    src="/public/pictures/calumdavidandrew.png"
+    alt="calmum andrew and david"
+  />
+</div>
+<div class="navigation-button">
+  <span class="dot active" onclick="changeSlide(0)"></span>
+  <span class="dot" onclick="changeSlide(1)"></span>
+  <span class="dot" onclick="changeSlide(2)"></span>
+  <span class="dot" onclick="changeSlide(3)"></span>
+  <span class="dot" onclick="changeSlide(4)"></span>
+  <span class="dot" onclick="changeSlide(5)"></span>
+  <span class="dot" onclick="changeSlide(6)"></span>
+  <span class="dot" onclick="changeSlide(7)"></span>
+  <span class="dot" onclick="changeSlide(8)"></span>
+  <span class="dot" onclick="changeSlide(9)"></span>
+  <span class="dot" onclick="changeSlide(10)"></span>
+  <span class="dot" onclick="changeSlide(11)"></span>
+  <span class="dot" onclick="changeSlide(12)"></span>
+</div>
+
+<button onclick="togglePlayPause()">Play/Pause</button>
+{% include '_gallery.html' %}

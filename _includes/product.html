@@ -1,0 +1,41 @@
+---
+layout: page.html
+---
+
+<p>{{ date | date: "%Y-%m-%d" }}</p>
+
+<div class="product-details">
+  <div class="feature-img">
+    <img src="{{ image }}" alt="{{ image_alt }}" class="single-product-image" />
+  </div>
+  <div class="description">
+    <h2>{{ title }}</h2>
+    <h3>${{ cost }}</h3>
+    {{ content }}
+    <a href="/order-form/" class="button">Order Now</a>
+  </div>
+</div>
+<div class="for-you">
+  <h3>You might like..</h3>
+  <a href="/products/white-tee/"
+    ><img
+      src="/public/pictures/archive_name/nathan-white-shirt.avif"
+      alt="sticker"
+      height="280"
+      class="suggested"
+  /></a>
+  <a href="/products/onesie/"
+    ><img
+      src="/public/pictures/onesie.png"
+      alt="onesie"
+      height="280"
+      class="suggested"
+  /></a>
+  <a href="/products/grey-hoody.md">
+    <img
+      src="/public/pictures/archive_name/david-grey-hoodie.avif"
+      alt="emohi t shirt"
+      height="280"
+      class="suggested"
+  /></a>
+</div>
